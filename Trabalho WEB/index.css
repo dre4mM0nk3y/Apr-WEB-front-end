@@ -1,0 +1,70 @@
+body{
+    font-family: Times Verdana;
+    font-size: 20px;
+    background-image: url(Imagens/fundo-de-padrao-de-onda-abstrato-3d.jpg);
+}
+
+header{
+ overflow: hidden;
+ background-color: rgb(27, 23, 26);
+ padding: 15px 15px;
+ text-align: center;
+}
+
+.subtitle{
+    font-size: 30px;
+}
+
+.title{
+    color: rgb(218, 205, 205);
+    font-size: 50px;
+}
+
+h6{
+    color: #e2d2d2;
+}
+
+.imagem_texto{
+    display: grid;
+    padding: 2px;
+    align-items: center;
+    grid-template-columns: 110px 1fr;
+}
+
+#main{
+    margin: auto;
+    width: 60%;
+    color: #000000;
+    background-color: rgb(180, 170, 170);
+    padding: 12px;
+}
+#coment{
+    color: rgb(139, 130, 130);
+    font-size: 15px;
+}
+
+
+a:link{
+    color: rgb(141, 117, 141);
+}
+
+a:hover{
+    color: rgb(169, 33, 187);
+}
+
+a:visited{
+    color: rgb(126, 98, 107);
+}
+
+
+
+hr.type1{
+    height: 10px;
+    background-color: rgba(27, 23, 26);
+}
+
+footer{
+    overflow: hidden;
+    background-color: rgb(27, 23, 26);
+    padding: 9px;
+}
